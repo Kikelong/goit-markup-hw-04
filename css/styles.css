@@ -153,6 +153,8 @@ li{
     margin-right: 0px;
 }
 
+
+
 /* PESTAÑAS ESTUDIO */
 
 .estudio-header{
@@ -295,6 +297,10 @@ li{
     font-weight: 700;
 }
 
+.icon-email{
+    fill:#757575;
+}
+
 .numero-header{
     text-decoration:none;
     /* margin-left: 50px; */
@@ -331,7 +337,10 @@ li{
     background-color: #2F303A;
     padding: 200px 0px;
     text-align: center;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/image-poster-index.jpg);
+    background-size: cover;
 }
+
 
 .container-poster-index{
     width: 1200px;
