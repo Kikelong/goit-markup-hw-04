@@ -667,32 +667,6 @@ color: #FFFFFF;
     fill:#FFFFFF;
 }
 
-/* .link-icons-redes:focus .svg-icons-redes{
-    fill:#ffffff;
-        fill: white;
-    background-color: #2196f3;
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    cursor: pointer;
-    padding: 0;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-} */
-
-/* .correo-header:hover .icon-header,
-.correo-header:focus .icon-header,
-.numero-header:hover .icon-header,
-.numero-header:focus .icon-header{
-    fill: var(--brand-color);
-} */
-
-
-/* .link-fichas-clientes:focus .svg-fichas-clientes{
-    fill: var(--brand-color);
-} */
-
 /* -----------------SECCION CLIENTES*/
 
 .section-clientes{
@@ -914,6 +888,8 @@ address{
     padding: 0 1% ;
     color: #ffffff;
     padding: 6px 24px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .menu-botones-portafolio:focus{
@@ -926,6 +902,8 @@ address{
     color: #ffffff;
     padding: 6px 24px;
     outline: none;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 /* FINAL DE BOTONES PORTAFOLIO */
@@ -966,11 +944,13 @@ address{
 
 .li-tarjetas-services:hover{
     cursor: pointer;
-    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .li-tarjetas-services:focus{
-    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .link-tarjetas-services{
