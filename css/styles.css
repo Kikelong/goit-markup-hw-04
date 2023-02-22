@@ -620,20 +620,78 @@ color: #FFFFFF;
 }
 
 .subcontainer-icons-redes{
-    margin-bottom: 42px;
+}
+
+.ul-icons-redes{
+        margin-bottom: 30px;
     padding: 0;
     display: flex;
     justify-content:  center;
 }
 
-.svg-icons-redes{
-    fill:#AFB1B8;
-    margin-right: 39px;
+.li-icons-redes{
+    margin-right: 10px;
+        align-items: center;
+    justify-content: center;
+    display: flex;
+        fill:#AFB1B8;
 }
 
-.subcontainer-icons-redes > .svg-icons-redes:last-child{
+.ul-icons-redes > .li-icons-redes:last-child{
     margin-right: 0px;
 }
+
+.li-icons-redes:hover, .link-icons-redes:focus{
+    fill: white;
+    background-color: #2196f3;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.link-icons-redes:focus .svg-icons-redes{
+    fill:#FFFFFF;
+}
+
+.svg-icons-redes{
+    padding: 12px;
+    fill:#AFB1B8;
+}
+
+.svg-icons-redes:hover{
+    fill:#FFFFFF;
+}
+
+/* .link-icons-redes:focus .svg-icons-redes{
+    fill:#ffffff;
+        fill: white;
+    background-color: #2196f3;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} */
+
+/* .correo-header:hover .icon-header,
+.correo-header:focus .icon-header,
+.numero-header:hover .icon-header,
+.numero-header:focus .icon-header{
+    fill: var(--brand-color);
+} */
+
+
+/* .link-fichas-clientes:focus .svg-fichas-clientes{
+    fill: var(--brand-color);
+} */
 
 /* -----------------SECCION CLIENTES*/
 
